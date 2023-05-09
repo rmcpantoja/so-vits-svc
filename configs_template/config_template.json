@@ -1,7 +1,7 @@
 {
   "train": {
     "log_interval": 50,
-    "eval_interval": 1000,
+    "eval_interval": 250,
     "seed": 1234,
     "port": 8001,
     "epochs": 10000,
@@ -19,7 +19,7 @@
     "init_lr_ratio": 1,
     "warmup_epochs": 0,
     "c_mel": 45,
-    "keep_ckpts":4
+    "keep_ckpts":0
   },
   "data": {
     "data_dir": "dataset",
